@@ -697,7 +697,7 @@ class MSLDAPClientConnection:
 				'timeLimit': timeLimit,
 				'typesOnly': types_only,
 				'filter': flt,
-				'attributes': encode_attributes(attributes),
+				'attributes': attributes,
 			}
 
 			br = { 'searchRequest' : SearchRequest( searchreq	)}
